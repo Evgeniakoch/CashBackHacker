@@ -16,7 +16,7 @@ public class CashBackHackServiceTest {
     }
 
     @org.testng.annotations.Test
-    public void should() {
+    public void amountAboveBoundary() {
         int amount = 1200;
         int expected = 0;
         CashBackHackService service = new CashBackHackService();
